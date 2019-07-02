@@ -1,0 +1,50 @@
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>myBookStore</title>
+       <link rel="stylesheet" type="text/css" href="style.css">
+      
+  </head>
+  <body>
+
+    <div class="container">
+      <div class="header">
+        <h1>My Book Store</h1>
+      </div>
+      <div id="nav">
+        <ul class="list1">
+          <li> <a href="#">About us</a> </li>
+          <li><a href="#">Contact us</a> </li>
+          <li><a href="#">Q & a</a></li>
+        </ul>
+      </div>
+
+      <div class="search">
+        <form class="search" action="index.html" method="post">
+          <input type="text" name="search" placeholder="Search a book " id="searchInput">
+        </form>
+      </div>
+
+      <h2 id="book-to-read"> Books to read  </h2>
+      <div id="list">
+        <ul id="book">
+          <li> <span class="name"> This is my first book</span>   <span class="delete"> delete </span> </li>
+          <li> <span class="name">This is my second book</span>  <span class="delete"> delete </span> </li>
+          <li> <span class="name">This is my third book</span> <span class="delete"> delete </span> </li>
+          <li> <span class="name">This is my fourth book </span> <span class="delete"> delete </span> </li>
+        </ul>
+      </div>
+        <div class="add">
+            <form class="add-book">
+              <input type="checkbox"  id="hide"> hide books
+                <input type="text" placeholder="Add a book" id="submit">
+                <button> Add book</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
